@@ -4,8 +4,6 @@ path_aplicacao_container=/usr/share/nginx/html
 nome_arquivo_compactado=aplicacao.tar.gz
 path_pasta_site_reactjs=/usr/share/nginx/html/site-reactjs
 
-#TERCEIRO TESTE A SER FEITO
-
 echo "Deploy da aplicação AllBooks na imagem que será usada no instanciamento do coiteiner Docker."
 echo " "
 echo "2 - Descompactando o projeto no container"
