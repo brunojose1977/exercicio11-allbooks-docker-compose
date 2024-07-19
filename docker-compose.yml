@@ -3,5 +3,6 @@ services:
   server:
     build: .
     container_name: allbooks
+    image: brunojose1977/exercicio11-allbooks-docker-compose:1.0
     ports:
       - 8080:3000
