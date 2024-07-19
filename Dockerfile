@@ -16,10 +16,10 @@ RUN apt install -y npm
 
 # Agora vou copiar o arquivo compactado do site React.js e o script shell de descompactação e instalação da aplicação
 COPY aplicacao.tar.gz .
-COPY descompactar-app-conteiner.sh .
+COPY 2-descompactar-app-conteiner.sh .
 
 # Agora rodar o o script de descompactação
-RUN ./descompactar-app-conteiner.sh
+RUN ./2-descompactar-app-conteiner.sh
 
 ENTRYPOINT service nginx start && cd /usr/share/nginx/html/site-reactjs/ && npm run start && sleep 10d 
 #ENTRYPOINT sleep 10d
