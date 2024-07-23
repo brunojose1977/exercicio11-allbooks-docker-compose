@@ -22,4 +22,5 @@ COPY 2-descompactar-configurar-rodar-conteiner.sh .
 RUN ./2-descompactar-configurar-rodar-conteiner.sh
 
 ENTRYPOINT service nginx start && cd /usr/share/nginx/html/site-reactjs/ && npm run start && sleep 10d 
+#ENTRYPOINT service nginx start && sleep 10d
 #ENTRYPOINT sleep 10d

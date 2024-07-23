@@ -19,7 +19,7 @@ echo " "
 echo "Chamada de execução do ENTRYPOINT do Dockerfile: (rnp run start)."
 echo " "
 
-sleep 40
+sleep 10
 
 cd $path_aplicacao_host
 tar czf $nome_arquivo_compactado $path_pasta_site_reactjs

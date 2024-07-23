@@ -23,8 +23,8 @@ tar xzf $nome_arquivo_compactado .
 #Iniciando os comandos de instalação, compilação. 
 #OBS: A execução da aplicação (npm run start) será executado no ENTRYPOINT do Dockerfile
 cd $path_pasta_site_reactjs
-npm i startbootstrap-one-page-wonder
+npm i 
 npm run build 
 
-echo "Finalizada a instalação da aplicação React.js."
+echo "Finalizada a instalação da aplicação React.js Allbooks."
 echo " "

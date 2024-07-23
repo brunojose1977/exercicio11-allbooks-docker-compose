@@ -9,7 +9,7 @@ echo " "
 echo "Excluindo a imagem da aplicação Allbooks, brunojose1977/exercicio11-allbooks-docker-compose:1.0...  PARA CANCELAR CTRL + C"
 echo " "
 sleep 5
-sudo docker rmi brunojose1977/exercicio11-allbooks-docker-compose:1.0
+sudo docker rmi brunojose1977/exercicio11-allbooks-docker-compose:1.1
 echo " "
 echo "O conteiner e a imagem do projeto Allbooks foram apagados."
 echo " "
