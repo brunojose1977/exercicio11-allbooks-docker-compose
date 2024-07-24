@@ -7,6 +7,10 @@ TOKEN-GITHUB.txt
 DOCKERHUB-LOGIN
 aplicacao.tar.gz
 
+#Certificados
+server.crt
+server.key
+
 # Arquivos de ambiente
 .env
 .env.local
